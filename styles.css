@@ -13,12 +13,11 @@ body {
     justify-content: space-around;
     flex-direction: column;
     padding: 100px;
-    word-wrap:normal;
-    word-break: break-all;
+    word-wrap:break-word;
+    word-break:keep-all;
     justify-content: center;
     align-content: center;
     min-height: 73.7vh;
-    min-width: 70vh;
     font-size: 6em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
